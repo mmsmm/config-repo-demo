@@ -1,5 +1,9 @@
 info:
   profile: default
   from: git1
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.2.101:8080/eureka/
   
 test: bbb
